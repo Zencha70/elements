@@ -78,7 +78,7 @@
 			<extend>ID_PHB_SPELL_REVIVIFY</extend>
 			<extend>ID_PHB_SPELL_VAMPIRIC_TOUCH</extend>
 			<extend>ID_PHB_SPELL_BLIGHT</extend>
-			<extend>ID_PHB_SPELL_CIRCLE_OF_DEATH</extend>
+			<extend>ID_PHB_SPELL_DEATH_WARD</extend>
 			<extend>ID_PHB_SPELL_ANTILIFE_SHELL</extend>
 			<extend>ID_PHB_SPELL_GREATER_RESTORATION</extend>
 		</spellcasting>
