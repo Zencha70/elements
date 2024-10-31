@@ -27,7 +27,7 @@
 		</rules>
 	</element>
 
-	<element name="Evocation Savant" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EVOCATION_EVOCATION_SAVANT">
+	<element name="Evocation Savant" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_EVOKER_EVOCATION_SAVANT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ILLUSION_ILLUSION_SAVANT</requirements>
 		<description>
 			<p>Choose two Wizard spells from the Evocation school, each of which must be no higher than level 2, and add them to your spellbook for free.</p>
@@ -74,13 +74,13 @@
 		</sheet>
 	</element>
 
-	<element name="Empowered Evocation" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EVOCATION_EMPOWERED_EVOCATION">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ILLUSION_ILLUSORY_SELF</requirements>
+	<element name="Empowered Evocation" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_EVOKER_EMPOWERED_EVOCATION">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EVOCATION_EMPOWERED_EVOCATION</requirements>
 		<description>
 			<p>Whenever you cast a Wizard spell from the Evocation school, you can add your Intelligence modifier to one damage roll of that spell.</p>
 		</description>
 		<sheet>
-			<description>Whenever you cast a Wizard spell from the Evocation school, you can add {{wisdom:modifier}} one damage roll of that spell.</description>
+			<description>Whenever you cast a Wizard spell from the Evocation school, you can add {{intelligence:modifier}} one damage roll of that spell.</description>
 		</sheet>
 	</element>
 	<element name="Overchannel" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_EVOKER_OVERCHANNEL">
