@@ -6,7 +6,7 @@
 		</update>
 	</info>
 
-	<element name="Illusionist" type="Archetype" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_PHB_ARCHETYPE_WIZARD_ILLUSIONIST">
+	<element name="Illusionist" type="Archetype" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_ILLUSIONIST">
 		<supports>Arcane Tradition</supports>
 		<description>
 			<h5><i>Weave Subtle Spells of Deception</i></h5>
@@ -30,7 +30,7 @@
 	<element name="Illusion Savant" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSION_SAVANT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ILLUSION_ILLUSION_SAVANT</requirements>
 		<description>
-			<p>Choose two Wizard spells from the Illusion school, each of which must be no higher than level 2, and add them to your spellbook for free</p>
+			<p>Choose two Wizard spells from the Illusion school, each of which must be no higher than level 2, and add them to your spellbook for free.</p>
 			<p class="indent">In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Illusion school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>
 		</description>
 		<sheet display="false" />
