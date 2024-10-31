@@ -141,11 +141,11 @@
 	</element>
 
 
-	<element name="Unarmored Defense" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_UNARMORED_DEFENSE">
+	<element name="Level: 1 Unarmored Defense" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_UNARMORED_DEFENSE">
 		<description>
 			<p>While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</p>
 		</description>
-		<sheet>
+		<sheet alt="Unarmed Defense">
 			<description>While you are wearing no armor and not wielding a shield, your AC equals {{ac:unarmored defense monk}}.</description>
 		</sheet>
 		<rules>
@@ -160,7 +160,7 @@
 	</element>
 
 
-	<element name="Martial Arts" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_MARTIAL_ARTS">
+	<element name="Level: 1 Martial Arts" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_MARTIAL_ARTS">
 		<description>
 			<p>Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are Simple Melee weapons, as well as Martial Melee weapons with the Light property.</p>
 			<p class="indent">You gain the following benefits while you are unarmed or wielding only monk weapons and you aren’t wearing armor or wielding a shield:</p>
@@ -171,7 +171,7 @@
 				<li>You can make an unarmed strike as a bonus action on your turn.</li>
 			</ul>
 		</description>
-		<sheet>
+		<sheet alt="Marital Arts">
 			<description>You can use Strength or Dexterity for your unarmed strikes. Your unarmed strike does 1d{{martial arts:dice}}+{{martial arts:damage}} damage. 
 			You can use Dexterity in place of Strength when you Grapple or Shove. Your Grappling or Shoving DC is {{shove or grapple}}.
 			You can make an unarmed strike as a bonus action on your turn.</description>
@@ -193,7 +193,7 @@
 	</element>
 
 
-	<element name="Monk's Focus" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_MONKS_FOCUS">
+	<element name="Level: 2 Monk's Focus" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_MONKS_FOCUS">
 		<description>
 			<p>Your focus and martial training allow you to harness a well of extraordinary energy within yourself. This energy is represented by Focus Points. Your Monk level determines the number of points you have, as shown in the Focus Points column of the Monk Features table.</p>
 			<p class="indent">You can spend these points to empower various focus features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more Monk's Focus features as you gain levels in this class.</p>
@@ -209,7 +209,7 @@
 			<h6>STEP OF THE WIND</h6>
 			<p>You can take the Dash action as a bonus action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash actions as a bonus action, and your jump distance is doubled for the turn</p>
 		</description>
-		<sheet>
+		<sheet alt="Monk's Focus">
 			<description>You have {{ki:points}} Focus Points and your Focus DC is {{ki:dc}}</description>
 		</sheet>
 		<rules>
@@ -257,11 +257,11 @@
 	</element>
 
 
-	<element name="Unarmored Movement" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_UNARMORED_MOVEMENT">
+	<element name="Level: 2 Unarmored Movement" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_UNARMORED_MOVEMENT">
 		<description>
 			<p>Your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk Features table.</p>
 		</description>
-		<sheet>
+		<sheet alt="Unarmored Movement">
 			<description>Your speed increases by {{monk:unarmored movement}} feet while you are not wearing armor or wielding a shield.</description>
 		</sheet>
 		<rules>
@@ -280,12 +280,12 @@
 	</element>
 
 
-	<element name="Uncanny Metabolism" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_UNCANNY_METABOLISM">
+	<element name="Level: 2 Uncanny Metabolism" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_UNCANNY_METABOLISM">
 		<description>
 			<p>When you roll Initiative, you can regain all expended Focus Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.</p>
 			<p class="indent">Once you use this feature, you can't use it again until you finish a Long Rest.</p>
 		</description>
-		<sheet usage="1/Long Rest">
+		<sheet alt="Uncanny Metabolism" usage="1/Long Rest">
 			<description>Once per Long Rest, regain all Focus Points when you roll Initiative, and regain 1d{{martial arts:dice}}+{{uncanny metabolism:hp}} Hit Points.</description>
 		</sheet>
 		<rules>
@@ -294,7 +294,7 @@
 	</element>
 
 
-	<element name="Monastic Tradition" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_MONASTIC_TRADITION">
+	<element name="Level: 3 Monk Subclass" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_MONASTIC_TRADITION">
 		<description>
 			<p>When you reach 3rd level, you commit yourself to a monastic tradition, such as the Way of the Open Hand. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.</p>
 		</description>
@@ -305,12 +305,12 @@
 	</element>
 
 
-	<element name="Deflect Attacks" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_DEFLECT_ATTACKS">
+	<element name="Level: 3 Deflect Attacks" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_DEFLECT_ATTACKS">
 		<description>
 			<p>When an attack roll hits you and its damage includes Bludgeoning Piercing or Slashing damage, you can take a reaection to reduce the attack's total damage against you. The reduction equals 1d1 plus your Dexterity modifier and Monk level. </p>
 			<p class="indent">If you reduce the damage to 0, you can expend 1 Focus Point to redirectsome of the attack's force. If you do so, choose a creature you can see within 5 feet of yourself if the attack was a melee attack or a creature you can see within 60 feet of yourseelf that isn't behind total cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack.</p>
 		</description>
-		<sheet action="Reaction">
+		<sheet alt+"Deflect Attacks" action="Reaction">
 			<description>You can use your reaction to reduce the damage of melee or ranged attacks that deal Bludgeoning, Piercing, or Slashing damage by 1d10+{{monk:deflect attacks bonus}}.
 			If you reduce the damage to 0, you can spend 1 Focus Point to redirect damage. Melee attacks can be directed at a creature within 5 feet, while ranged against a creature within 60 feet. The target must succeed on a DC{{ki:dc}} Dexterity saving throw or takes damage equal to 2d{{monk:deflect attack damage}}+{{monk:deflect attack damage modifier}}.</description>
 			<description level="13">You can use your reaction to reduce the damage of any melee or ranged attacks by 1d10+{{monk:deflect attacks bonus}}.
@@ -328,7 +328,7 @@
 	</element>
 
 
-	<element name="Ability Score Improvement" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT_MONK">
+	<element name="Level: 4 Ability Score Improvement" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT_MONK">
 		<compendium display="false" />
 		<description>
 			<p>You gain the Ability Score Improvement feat (see chapter S) or another feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16 </p>
@@ -344,11 +344,11 @@
 	</element>
 
 
-	<element name="Slow Fall" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_SLOW_FALL">
+	<element name="Level: 4 Slow Fall" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_SLOW_FALL">
 		<description>
 			<p>You can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.</p>
 		</description>
-		<sheet usage="Reaction">
+		<sheet alt="Slow Fall" usage="Reaction">
 			<description>Reduce any falling damage you take by {{monk:slowfall}}.</description>
 		</sheet>
 		<rules>
@@ -361,11 +361,11 @@
 	</element>
 
 
-	<element name="Extra Attack" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK">
+	<element name="Level: 5 Extra Attack" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK">
 		<description>
 			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
 		</description>
-		<sheet>
+		<sheet alt="Extra Attack">
 			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
 		</sheet>
 		<rules>
@@ -374,46 +374,46 @@
 	</element>
 
 
-	<element name="Stunning Strike" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE">
+	<element name="Level: 5 Stunning Strike" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE">
 		<description>
 			<p>Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.</p>
 		</description>
-		<sheet usage="Focus">
+		<sheet alt="Stunning Strike" usage="Focus">
 			<description>When you hit another creature with a Monk weapon or Unarmed Strike, you can spend 1 focus point to attempt a stunning strike. The target must succeed on a DC{{ki:dc}} Constitution saving throw or be stunned until the start of your next turn. On a successful save, the target's Speed is halved, and the next attack against them has Advantage. You can only use Stunning Strike once per turn.</description>
 		</sheet>
 	</element>
 
 
-	<element name="Empowered Strikes" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_EMPOWERED_STRIKES">
+	<element name="Level: 6 Empowered Strikes" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_EMPOWERED_STRIKES">
 		<description>
 			<p>Whenever you deal damage with your Unarmed Strike, it can deal your choice of Force damage or its normal damage type.</p>
 		</description>
-		<sheet>
+		<sheet alt="Empowered Strikes">
 			<description>You can choose to deal Force damage instead of Bludgeoning damage for your Unarmed Strikes.</description>
 		</sheet>
 	</element>
 
 
-	<element name="Evasion" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_EVASION_MONK">
+	<element name="Level: 7 Evasion" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_EVASION_MONK">
 		<description>
 			<p>When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.</p>
 			<p class="indent">You don't benefit from this feature if you have the Incapacitated condition.</p>
 		</description>
-		<sheet>
+		<sheet alt="Evasion">
 			<description>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage and you do not have the Incapacitated condition, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</description>
 		</sheet>
 	</element>
 	
-	<element name="Acrobatic Movement" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_ACROBATIC_MOVEMENT">
+	<element name="Level: 9 Acrobatic Movement" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_ACROBATIC_MOVEMENT">
 		<description>
 			<p>While you are not wearing armor or wielding a shield, you gain the ability to move along vertical surfaes and across liquids on your turn without falling during the movement.</p>
 		</description>
-		<sheet>
+		<sheet alt="Acrobatic Movement">
 			<description>You can move across vertical surfaces and across liquids on your turn while you are not wearing armor or wielding a shield.</description>
 		</sheet>
 	</element>
 	
-	<element name="Heightened Focus" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_HEIGHTENED_FOCUS">
+	<element name="Level: 10 Heightened Focus" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_HEIGHTENED_FOCUS">
 		<description>
 			<p>Your Flurry of Blows, Patient Defense and Step of the Wind features gain the following beenefits;</p>
 				<li><i>Flurry of Blows</i> You can expend 1 Focus Point to use Flurry of Blows and make three Unarmed Strikes with it instead of two.</li>
@@ -425,35 +425,35 @@
 	</element>
 
 
-	<element name="Self-Restoration" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_SELF_RESTORATION">
+	<element name="Level: 10 Self-Restoration" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_SELF_RESTORATION">
 		<description>
 			<p>Through sheer force of will. you can remove one of the following conditions from yourself at the end of each of your turns: Charmed, Frightened or Poisoned.</p>
 			<p class="indent">In addition, forgoing food and drink doesn't give you levels of Exhaustion.</p>
 		</description>
-		<sheet>
+		<sheet alt="Self Restoration">
 			<description>You no longer need food or drink to survive and dont suffer exhaustion from the lack of it. Additionally, the Charmed, Frightened and Poisoned automatically end at the end of your turn. </description>
 		</sheet>
 	</element>
 
-	<element name="Deflect Energy" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_DEFLECT_ENERGY">
+	<element name="Level: 13 Deflect Energy" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_DEFLECT_ENERGY">
 		<description>
 			<p>You can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing.</p>
 		</description>
 	        <sheet display="false">
-                </sheet>
+            </sheet>
 	</element>
 
 
 
 
 
-	<element name="Disciplined Survivor" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_DISCIPLINED_SURVIVOR">
+	<element name="Level: 14 Disciplined Survivor" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_DISCIPLINED_SURVIVOR">
 		<description>
 			<p>Your physical and mental discipline grant you proficiency in all saving throws.</p>
 			<p class="indent">Additionally, whenever you make a saving throw and fail, you can spend 1 focus point to reroll it and take the second result.</p>
 		</description>
-		<sheet usage="Focus">
-			<description>Whenever you make a saving throw and fail, you can spend 1 focus point to reroll it and take the second result.</description>
+		<sheet alt="Disciplined Survivor" usage="Focus">
+			<description>Whe never you make a saving throw and fail, you can spend 1 focus point to reroll it and take the second result.</description>
 		</sheet>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
@@ -467,26 +467,26 @@
 
 
 
-	<element name="Perfect Focus" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_PERFECT_FOCUS">
+	<element name="Level: 15 Perfect Focus" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_PERFECT_FOCUS">
 		<description>
 			<p>If you haven't used Uncanny Metabolism since your last long rest and have fewer than 4 Focus Points, you regain 4 Focus Points when rolling Initiative.</p>
 		</description>
-		<sheet>
+		<sheet alt="Perfect Focus">
 			<description>If you don’t use Uncanny Metabolism and have fewer than 4 Focus Points, go back up to 4 Focus Points when rolling Initiative.</description>
 		</sheet>
 	</element>
 
 
-	<element name="Superior Defense" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_SUPERIOR_DEFENSE">
+	<element name="Level: 18 Superior Defense" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_SUPERIOR_DEFENSE">
 		<description>
 			<p>At the start of your turn, you can expend 3 Focus Points to bolster yourself against harm for 1 min- ute or until you have the Incapacitated condition. During that time, you have Resistance to all damage except Force damage.</p>
 		</description>
-		<sheet usage="Focus">
+		<sheet alt="Superior Defense" usage="Focus">
 			<description>You can spend 3 Focus Points at the start of your turn to gain resistance to all damage types except Force for 1 minute.</description>
 		</sheet>
 	</element>
 
-	<element name="Epic Boon" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_EPIC_BOON">
+	<element name="Level: 19 Epic Boon" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_EPIC_BOON">
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify.</p>
 		</description>
@@ -498,7 +498,7 @@
 	</element>
 
 
-	<element name="Body and Mind" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_BODY_AND_MIND">
+	<element name="Level: 20 Body and Mind" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024_PHB_CLASS_FEATURE_MONK_BODY_AND_MIND">
 		<description>
 			<p>You have developed your body and mind to new heights. Your Dexterity and Wisdom scores increase by 4, to a maximum of 25.</p>
 		</description>

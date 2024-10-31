@@ -27,7 +27,7 @@
 		</rules>
 	</element>
 
-	<element name="Illusion Savant" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSION_SAVANT">
+	<element name="Level: 3 Illusion Savant" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSION_SAVANT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ILLUSION_ILLUSION_SAVANT</requirements>
 		<description>
 			<p>Choose two Wizard spells from the Illusion school, each of which must be no higher than level 2, and add them to your spellbook for free.</p>
@@ -54,13 +54,13 @@
 		</rules>
 	</element>
 
-	<element name="Improved Illusions" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_ILLUSIONIST_IMPROVED_MINOR_ILLUSION">
+	<element name="Level: 3 Improved Illusions" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_ILLUSIONIST_IMPROVED_MINOR_ILLUSION">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ILLUSION_IMPROVED_MINOR_ILLUSION</requirements>
 		<description>
 			<p>You can cast Illusion spells without providing Verbal components, and if an Illusion spell you cast has a range of 10+ feet, the range increases by 60 feet.</p>
 			<p class="indent">You also know the Minor Illusion cantrip. If you already know it, you learn a different Wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known. You can create both a sound and an image with a single casting of Minor Illusion, and you can cast it as a Bonus Action.</p>
 		</description>
-		<sheet action="Bonus Action">
+		<sheet alt="Improved Illusions" action="Bonus Action">
 			<description>You can cast minor illusion as a bonus action, and you can create both a sound and an image with a single casting of the spell.</description>
 		</sheet>
 		<rules>
@@ -69,12 +69,12 @@
 		</rules>
 	</element>
 
-	<element name="Phantasmal Creatures" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_ILLUSIONIST_MALLEABLE_ILLUSIONS">
+	<element name="Level: 6 Phantasmal Creatures" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_ILLUSIONIST_MALLEABLE_ILLUSIONS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ILLUSION_MALLEABLE_ILLUSIONS</requirements>
 		<description>
 			<p>You always have the <i>Summon Beast</i> and <i>Summon Fey</i> spells prepared. Whenever you cast either spell, you can change its school to Illusion, which causes the summoned creature to appear spectral. You can cast the Illusion version of each spell without expending a spell slot, but casting it without a slot halves the creature's Hit Points. Once you cast either spell without a spell slot, you must finish a Long Rest before you can cast the spell in that way again.</p>
 		</description>
-		<sheet>
+		<sheet alt="Phantasmal Creatures">
 			<description>You always have the Summon Beast and Summon Fey spells prepared. Whenever you cast either spell, you can change its school to Illusion, which causes the summoned creature to appear spectral. You can cast the Illusion version of each spell without expending a spell slot, but casting it without a slot halves the creature's Hit Points. Once you cast either spell without a spell slot, you must finish a Long Rest before you can cast the spell in that way again.</description>
 		</sheet>
 		<rules>		
@@ -84,22 +84,22 @@
 		</rules>
 
 	</element>
-	<element name="Illusory Self" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSORY_SELF">
+	<element name="Level: 10 Illusory Self" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSORY_SELF">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ILLUSION_ILLUSORY_SELF</requirements>
 		<description>
 			<p>When a creature hits you with an attack roll, you can take a Reaction to interpose an illusory duplicate of yourself between the attacker and yourself. The attack automatically misses you, then the illusion dissipates.</p>
 			<p class="indent">Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
 		</description>
-		<sheet action="Reaction" usage="1/Short Rest">
+		<sheet alt="Illusory Self" action="Reaction" usage="1/Short Rest">
 			<description>When a creature hits you with an attack roll, you can interpose an illusory duplicate of yourself between the attacker and yourself. The attack automatically misses you, then the illusion dissipates. You can also restore your use of this by expending a level 2+ spell slot (no action required).</description>
 		</sheet>
 	</element>
-	<element name="Illusory Reality" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSORY_REALITY">
+	<element name="Level: 17 Illusory Reality" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSORY_REALITY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ILLUSION_ILLUSORY_REALITY</requirements>
 		<description>
 			<p>You have learned to weave shadow magic into your illusions to give them a semi-reality. When you cast an Illusion spell with a spell slot, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. You can do this on your turn as a Bonus Action while the spell is ongoing. The object remains real for 1 minute, during which it can't deal damage or give any conditions. For example, you can create an illusion of a bridge over a chasm and then make it real and cross it.</p>
 		</description>
-		<sheet action="Bonus Action">
+		<sheet alt="Illusory Reality" action="Bonus Action">
 			<description>When you cast an illusion spell of 1st level or higher, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. The object remains real for 1 minute. The object can't deal damage or give any conditions.</description>
 		</sheet>
 	</element>

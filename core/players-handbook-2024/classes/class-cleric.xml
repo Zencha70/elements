@@ -121,7 +121,7 @@
 		</multiclass>
 	</element>
 
-	<element name="Spellcasting" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC">
+	<element name="Level 1: Spellcasting" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_SPELLCASTING</requirements>
 		<description>
 			<p>You have learned to cast spells through prayer and meditation. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Cleric spells, which appear on the Cleric spell list later in the class's description.</p>
@@ -146,7 +146,7 @@
 			<h5 class="caption">SPELLCASTING FOCUS</h5>
 			<p>You can use a Holy Symbol as a Spellcasting Focus for your Cleric spells.</p>
 		</description>
-		<sheet>
+		<sheet alt="Spellcasting">
 			<description>You can cast cleric spells as rituals. You can prepare {{cleric:spellcasting:prepare}} spells from the cleric spell list. You can use a holy symbol as your spellcasting focus.</description>
 		</sheet>
 		<spellcasting name="Cleric" ability="Wisdom" prepare="true">
@@ -202,12 +202,12 @@
 		</rules>
 	</element>
 
-	<element name="Divine Order" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER">
+	<element name="Level 1: Divine Order" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER">
 		<description>
 			<p>You have dedicated yourself to one of the following sacred roles of your choice. You may choose one of the following features to gain:</p>
 			<p class="indent"><i>Protector</i> or <i>Thaumaturge</i></p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Divine Order" display="false" />
 		<rules>
 			<select type="Class Feature" name="Divine Domain" supports="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER_PROTECTOR|ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER_THAUMATURGE" />
 		</rules>
@@ -266,7 +266,7 @@
 		</rules>
 	</element>
 
-	<element name="Channel Divinity" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY">
+	<element name="Level 2: Channel Divinity" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_CHANNEL_DIVINITY</requirements>
 		<description>
 			<p>You can channel divine energy directly from the Outer Planes to fuel magical effects. You start with two such effects: Divine Spark and Turn Undead, each of which is described below. Each time you use this class's Channel Divinity, choose which Channel Divinity effect from this class to create. You gain additional effect options at higher Cleric levels.</p>
@@ -275,7 +275,7 @@
 			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD" />
 			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_DIVINESPARK" />
 		</description>
-		<sheet usage="{{channel divinity:count}}/Long Rest" >
+		<sheet alt="Channel Divinity" usage="{{channel divinity:count}}/Long Rest" >
 			<description>You regain one expended Channel Divinity use when you finish a Short Rest.</description>
 		</sheet>
 		<rules>
@@ -290,22 +290,23 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_CHANNELDIVINITY_TURN_UNDEAD</requirements>
 		<description>
 			<p>As a Magic action, you present your Holy Symbol and censure Undead creatures. Each Undead of your choice within 30 feet of you mustmake a Wisdom saving throw. If the creature fails its save, it has the Frightened and Incapacitated conditions for 1 minute. For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the Incapacitated condition, or if you die.</p>
+			<div element="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD_SEARUNDEAD" level="5" />
 		</description>
 		<sheet alt="Turn Undead" action="Magic Action" usage="Channel Divinity">
 			<description>Each Undead of your choice within 30 feet of you mustmake a Wisdom saving throw. If the creature fails its save, it has the Frightened and Incapacitated conditions for 1 minute. This effect ends early on a creature if it takes any damage, if you have the Incapacitated condition or if you die.
-				 For that duration, it tries to move as far from you as it can on its turns.</description>
+				 For that duration, it tries to move as far from you as it can on its turns. </description>
 		</sheet>
 		<rules>
 			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD_SEARUNDEAD" level="5" />
 		</rules>
 	</element>
 
-	<element name="Sear Undead" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD_SEARUNDEAD">
+	<element name="Level 5: Sear Undead" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD_SEARUNDEAD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DESTROY_UNDEAD</requirements>
 		<description>
 			<p>Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of ld8) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.</p>
 		</description>
-		<sheet>
+		<sheet alt="Sear Undead">
 			<description>Whenever you use Turn Undead, you can roll {{searundead:modifier}}d8. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.</description>
 		</sheet>
 		<rules>
@@ -330,7 +331,7 @@
 		</rules>
 	</element>
 
-	<element name="Cleric Subclass" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CLERICSUBCLASS">
+	<element name="Level 3: Cleric Subclass" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CLERICSUBCLASS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_DOMAIN</requirements>
 		<description>
 			<p>You gain a Cleric subclass of your choice. The Life Domain, Light Domain, Trickery Domain, and War Domain subclasses are detailed after this class's description . A subclass is a specialization that grants you features at certain Cleric levels. For the rest of your career, you gain each of your subclass's features that are of your Cleric level or lower.</p>
@@ -341,7 +342,7 @@
 		</rules>
 	</element>
 
-	<element name="Ability Score Improvement" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC">
+	<element name="Level 4: Ability Score Improvement" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -356,7 +357,7 @@
 		</rules>
 	</element>
 
-	<element name="Blessed Strikes" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES">
+	<element name="Level 7: Blessed Strikes" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES">
 		<description>
 			<p>Divine power infuses you in battle. You gain one of the following options of your choice (if you get either option from a Cleric subclass in an older book, use only the option you choose for this feature);</p>
 			<p class="indent"><i>Divine Strike</i> or <i>Potent Spellcasting</i></p>
@@ -391,19 +392,19 @@
 		</rules>
 	</element>
 
-	<element name="Divine Intervention" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION">
+	<element name="Level 10: Divine Intervention" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_INTERVENTION</requirements>
 		<description>
 			<p> You can call on your deity or pantheon to intervene on your behalf. As a Magic action, choose any Cleric spell of level 5 or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. You can't use this feature again until you finish a Long Rest. </p>
 		</description>
-		<sheet usage="1/Long Rest">
+		<sheet alt="Divine Intervention" usage="1/Long Rest">
 			<description>As a Magic action, choose any Cleric spell of level 5 or lower that doesn 't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components.</description>
 			<description level="20">As a Magic action, choose any Cleric spell of level 5 or lower that doesn 't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. 
 			You can also choose the <i>Wish</i> spell. If you do so, you can't use Divine Intervention again until you finish 2d4 Long Rests.</description>
 		</sheet>
 	</element>
 
-	<element name="Improved Blessed Strikes" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_IMPROVEDBLESSEDSTRIKES" >
+	<element name="Level 14: Improved Blessed Strikes" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_IMPROVEDBLESSEDSTRIKES" >
 		<description>
 			<p>The option you chose for Blessed Strikes grows more powerful. </p>
 
@@ -414,7 +415,7 @@
 		<sheet display="false" />
 	</element>
 
-	<element name="Epic Boon" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_EPIC_BOON">
+	<element name="Level 19: Epic Boon" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_EPIC_BOON">
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Fate is recommended.</p>
 		</description>
@@ -424,7 +425,7 @@
 		</rules>
 	</element>
 
-	<element name="Greater Divine Intervention" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_GREATERDIVINEINTERVENTION">
+	<element name="Level 20: Greater Divine Intervention" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_GREATERDIVINEINTERVENTION">
 		<description>
 			<p>You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose <i>Wish</i> when you select a spell. If you do so, you can't use Divine Intervention again until you finish 2d4 Long Rests. </p>
 		</description>

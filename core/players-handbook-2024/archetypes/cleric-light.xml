@@ -54,13 +54,13 @@
 	</element>
 
 
-	<element name="Warding Flare" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE">
+	<element name="Level 3: Warding Flare" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_WARDING_FLARE</requirements>
 		<description>
 			<p>When a creature that you can see within 30 feet of yourself makes an attack roll, you can take a Reaction to impose Disadvantage on the attack roll, causing light to flare before it hits or misses.</p>
 			<p class="indent">You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.</p>
 		</description>
-		<sheet action="Reaction" usage="{{warding flare:count}}/Long Rest" >
+		<sheet alt="Warding Flare" action="Reaction" usage="{{warding flare:count}}/Long Rest" >
 			<description>When a creature that you can see within 30 feet of yourself makes an attack roll, you can take a Reaction to impose Disadvantage on the attack roll before it hits or misses.</description>
 			<description usage="{{warding flare:count}}/Short Rest" level="6">When a creature that you can see within 30 feet of yourself makes an attack roll, you can take a Reaction to impose Disadvantage on the attack roll before it hits or misses. Additionally, you can give the target of the triggering attack 2d6+{{wisdom:modifier}} Temporary Hit Points.</description>
 		</sheet>
@@ -69,7 +69,7 @@
 			<stat name="warding flare:count" value="wisdom:modifier" bonus="base" />
 		</rules>
 	</element>
-	<element name="Channel Divinity: Radiance of the Dawn" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN">
+	<element name="Level 3: Channel Divinity: Radiance of the Dawn" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN</requirements>
 		<description>
 			<p>As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to emit a flash of light in a 30-foot Emanation originating from yourself. Any magical Darkness—such as that created by the Darkness spell—in that area is dispelled. Additionally, each creature of your choice in that area must make a Constitution saving throw, taking Radiant damage equal to 2d10 plus your Cleric level on a failed save or half as much damage on a successful one.</p>
@@ -78,22 +78,22 @@
 			<description>You present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Each creature of your choicee within 30 feet of you must make a Constitution saving throw. A creature takes 2d10+{{level:cleric}} radiant damage on a failed saving throw, and half as much damage on a successful one.</description>
 		</sheet>
 	</element>
-	<element name="Improved Flare" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE">
+	<element name="Level 6: Improved Flare" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_IMPROVED_FLARE</requirements>
 		<description>
 			<p>You regain all expended uses of your Warding Flare when you finish a Short or Long Rest.</p>
 			<p class="indent">In addition, whenever you use Warding Flare, you can give the target of the triggering attack a number of Temporary Hit Points equal to 2d6 plus your Wisdom modifier.</p>
 		</description>
-		<sheet display="false" />
+		<sheet alt="Improved Flare" display="false" />
 	</element>
 
-	<element name="Corona of Light" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT">
+	<element name="Level 17: Corona of Light" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_CORONA_OF_LIGHT</requirements>
 		<description>
 			<p>As a Magic action, you cause yourself to emit an aura of sunlight that lasts for 1 minute or until you dismiss it (no action required). You emit Bright Light in a 60-foot radius and Dim Light for an additional 30 feet. Your enemies in the Bright Light have Disadvantage on saving throws against your Radiance of the Dawn and any spell that deals Fire or Radiant damage.</p>
 			<p class="indent">You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.</p>
 		</description>
-		<sheet action="Magic Action" usage="{{corona of light:count}}/Long Rest">
+		<sheet alt="Corona of Light" action="Magic Action" usage="{{corona of light:count}}/Long Rest">
 			<description>You cause yourself to emit an aura of sunlight that lasts for 1 minute or until you dismiss it (no action required). You emit Bright Light in a 60-foot radius and Dim Light for an additional 30 feet. Your enemies in the Bright Light have Disadvantage on saving throws against your Radiance of the Dawn and any spell that deals Fire or Radiant damage..</description>
 		</sheet>
 		<rules>
