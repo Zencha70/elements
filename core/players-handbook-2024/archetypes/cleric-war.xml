@@ -44,8 +44,8 @@
 			<grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="7" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="9" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="9" spellcasting="Cleric" prepared="true" /> -->
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST" level="1"/>
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_GUIDED_STRIKE" level="2"/>
+			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_GUIDED_STRIKE" level="3"/>
 			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_GODS_BLESSING" level="6"/>
 			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE" level="17"/>
 		</rules>
