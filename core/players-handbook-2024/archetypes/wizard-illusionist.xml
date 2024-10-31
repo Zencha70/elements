@@ -79,8 +79,8 @@
 		</sheet>
 		<rules>		
 			<!-- Change to 2024 Summon ... ID
-			<grant type="Spell" id="ID_PHB_SPELL_SUMMON_BEAST" level="5" spellcasting="Wizard" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SUMMON_FEY" level="5" spellcasting="Wizard" prepared="true" /> -->
+			<grant type="Spell" id="ID_PHB_SPELL_SUMMON_BEAST" spellcasting="Wizard" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SUMMON_FEY" spellcasting="Wizard" prepared="true" /> -->
 		</rules>
 
 	</element>
