@@ -6,7 +6,7 @@
 		</update>
 	</info>
 
-	<element name="War Domain" type="Archetype" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_PHB_ARCHETYPE_CLERIC_WAR_DOMAIN">
+	<element name="War Domain" type="Archetype" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_CLERIC_WAR_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
 			<h5><i>Inspire Valor and Smite Foes</i></h5>

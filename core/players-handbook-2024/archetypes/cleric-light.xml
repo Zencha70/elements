@@ -6,7 +6,7 @@
 		</update>
 	</info>
 
-	<element name="Light Domain" type="Archetype" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_PHB_ARCHETYPE_CLERIC_LIGHT_DOMAIN">
+	<element name="Light Domain" type="Archetype" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_CLERIC_LIGHT_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
 			<h5><i>Bring Light to Banish Darkness</i></h5>
