@@ -62,7 +62,7 @@
 		</description>
 		<sheet action="Reaction" usage="{{warding flare:count}}/Long Rest" >
 			<description>When a creature that you can see within 30 feet of yourself makes an attack roll, you can take a Reaction to impose Disadvantage on the attack roll before it hits or misses.</description>
-			<description usage="{{warding flare:count}}/Short Rest" level="6">When a creature that you can see within 30 feet of yourself makes an attack roll, you can take a Reaction to impose Disadvantage on the attack roll before it hits or misses. Additionally, you can give the target of the triggering attack 2d6+{{wisdom:modifier}} Temporary Hit Points</description>
+			<description usage="{{warding flare:count}}/Short Rest" level="6">When a creature that you can see within 30 feet of yourself makes an attack roll, you can take a Reaction to impose Disadvantage on the attack roll before it hits or misses. Additionally, you can give the target of the triggering attack 2d6+{{wisdom:modifier}} Temporary Hit Points.</description>
 		</sheet>
 		<rules>
 			<stat name="warding flare:count" value="1" bonus="base" />

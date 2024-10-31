@@ -24,6 +24,9 @@
 		<file name="cleric-war.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/cleric-war.xml" />
 		<file name="cleric-light.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/cleric-light.xml" />
 		<file name="wizard-illusionist.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/wizard-illusionist.xml" />
+		<file name="wizard-evoker.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/wizard-evoker.xml" />
+		<file name="wizard-abjurer.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/wizard-abjurer.xml" />
+		<file name="wizard-diviner.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/wizard-diviner.xml" />
 		<!-- backgrounds -->
 
 		<!-- items -->
