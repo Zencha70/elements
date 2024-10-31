@@ -295,7 +295,7 @@
 		<description>
 			<p>When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap or Slow property for that attack.</p>
 		</description>
-		<shee alt="Tactical Master"t>
+		<sheet alt="Tactical Master">
 			<description>When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap or Slow property for that attack.</description>
 		</sheet>
 	</element>
