@@ -6,7 +6,7 @@
 		</update>
 	</info>
 
-	<element name="Trickery Domain" type="Archetype" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_CLERIC_TRICKERY_DOMAIN">
+	<element name="Trickery Domain" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_CLERIC_TRICKERY_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
 			<h5><i>Make Mischief and Challenge Authority</i></h5>
@@ -23,10 +23,10 @@
 				<tr><td>7th</td><td><em>Confusion, dimension door</em></td></tr>
 				<tr><td>9th</td><td><em>Dominate person, modify memory</em></td></tr>
 			</table>
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER" />
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY" />
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKSTER'S_TRANSPOSITION" />
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKSTER'S_TRANSPOSITION" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY" />
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -41,13 +41,13 @@
 			<grant type="Spell" id="ID_PHB_SPELL_DIMENSION_DOOR" level="7" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_DOMINATE_PERSON" level="9" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_MODIFY_MEMORY" level="9" spellcasting="Cleric" prepared="true" /> -->
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER" level="3"/>
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY" level="3"/>
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKSTER'S_TRANSPOSITION" level="6"/>
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY" level="17"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKSTER'S_TRANSPOSITION" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY" level="17"/>
 		</rules>
 	</element>
-	<element name="Level 3: Blessing of the Trickster" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER">
+	<element name="Level 3: Blessing of the Trickster" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER</requirements>
 		<description>
 			<p>As a Magic action, you can choose yourself or a willing creature within 30 feet of yourself to have Advantage on Dexterity (Stealth) checks. This blessing lasts until you finish a Long Rest or you use this feature again.</p>
@@ -57,7 +57,7 @@
 		</sheet>
 	</element>
 
-	<element name="Level 3: Channel Divinity: Invoke Duplicity" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY">
+	<element name="Level 3: Channel Divinity: Invoke Duplicity" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY</requirements>
 		<description>
 			<p>As a Bonus Action, you can expend one use of your Channel Divinity to create a perfect visual illusion of yourself in an unoccupied space you can see within 30 feet of yourself. The illusion is intangible and doesn't occupy its space. It lasts for 1 minute, but it ends early if you dismiss it (no action required) or have the Incapacitated condition. The illusion is animated and mimics your expressions and gestures. While it persists, you gain the following benefits.</p>
@@ -70,7 +70,7 @@
 		</sheet>
 	</element>
 
-	<element name="Level 6: Trickster's Transposition" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKSTER'S_TRANSPOSITION">
+	<element name="Level 6: Trickster's Transposition" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKSTER'S_TRANSPOSITION">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_CD_CLOAK_OF_SHADOWS</requirements>
 		<description>
 			<p>Whenever you take the Bonus Action to create or move the illusion of your Invoke Duplicity, you can teleport, swapping places with the illusion.</p>
@@ -80,14 +80,14 @@
 		</sheet>
 	</element>
 
-	<element name="Level 17: Improved Duplicity" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY">
+	<element name="Level 17: Improved Duplicity" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_IMPROVED_DUPLICITY</requirements>
 		<description>
 			<p>The illusion of your Invoke Duplicity has grown more powerful in the following ways.</p>
 			<p><i>Shared Distraction</i>When you and your allies make attack rolls against a creature within 5 feet of the illusion, the attack rolls have Advantage.</p>
 			<p><i>Healing Illusion</i>When the illusion ends, you or a creature of your choice within 5 feet of it regains a number of Hit Points equal to your Cleric level.</p>
 			<div class="reference">
-				<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY" />
+				<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY" />
 			</div>
 		</description>
 		<sheet alt="Improved Duplicity">

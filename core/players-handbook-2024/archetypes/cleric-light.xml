@@ -6,7 +6,7 @@
 		</update>
 	</info>
 
-	<element name="Light Domain" type="Archetype" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_CLERIC_LIGHT_DOMAIN">
+	<element name="Light Domain" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_CLERIC_LIGHT_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
 			<h5><i>Bring Light to Banish Darkness</i></h5>
@@ -25,10 +25,10 @@
 				<tr><td>7th</td><td><em>guardian of faith, wall of fire</em></td></tr>
 				<tr><td>9th</td><td><em>flame strike, scrying</em></td></tr>
 			</table>
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" />
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN" />
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE" />
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT" />
 		</description>
 		<sheet display="false">
 			<description>The gods of war watch over warriors and reward them for their great deeds.</description>
@@ -46,15 +46,15 @@
 			<grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="9" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="9" spellcasting="Cleric" prepared="true" />-->
 
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" level="3"/>
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN" level="3"/>
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE" level="6"/>
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT" level="17"/> 
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT" level="17"/> 
 		</rules>
 	</element>
 
 
-	<element name="Level 3: Warding Flare" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE">
+	<element name="Level 3: Warding Flare" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_WARDING_FLARE</requirements>
 		<description>
 			<p>When a creature that you can see within 30 feet of yourself makes an attack roll, you can take a Reaction to impose Disadvantage on the attack roll, causing light to flare before it hits or misses.</p>
@@ -69,7 +69,7 @@
 			<stat name="warding flare:count" value="wisdom:modifier" bonus="base" />
 		</rules>
 	</element>
-	<element name="Level 3: Channel Divinity: Radiance of the Dawn" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN">
+	<element name="Level 3: Channel Divinity: Radiance of the Dawn" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN</requirements>
 		<description>
 			<p>As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to emit a flash of light in a 30-foot Emanation originating from yourself. Any magical Darkness—such as that created by the Darkness spell—in that area is dispelled. Additionally, each creature of your choice in that area must make a Constitution saving throw, taking Radiant damage equal to 2d10 plus your Cleric level on a failed save or half as much damage on a successful one.</p>
@@ -78,7 +78,7 @@
 			<description>You present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Each creature of your choicee within 30 feet of you must make a Constitution saving throw. A creature takes 2d10+{{level:cleric}} radiant damage on a failed saving throw, and half as much damage on a successful one.</description>
 		</sheet>
 	</element>
-	<element name="Level 6: Improved Flare" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE">
+	<element name="Level 6: Improved Flare" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_IMPROVED_FLARE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_IMPROVED_FLARE</requirements>
 		<description>
 			<p>You regain all expended uses of your Warding Flare when you finish a Short or Long Rest.</p>
@@ -87,7 +87,7 @@
 		<sheet alt="Improved Flare" display="false" />
 	</element>
 
-	<element name="Level 17: Corona of Light" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT">
+	<element name="Level 17: Corona of Light" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CORONA_OF_LIGHT">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_CORONA_OF_LIGHT</requirements>
 		<description>
 			<p>As a Magic action, you cause yourself to emit an aura of sunlight that lasts for 1 minute or until you dismiss it (no action required). You emit Bright Light in a 60-foot radius and Dim Light for an additional 30 feet. Your enemies in the Bright Light have Disadvantage on saving throws against your Radiance of the Dawn and any spell that deals Fire or Radiant damage.</p>

@@ -6,7 +6,7 @@
 		</update>
 	</info>
 
-	<element name="Life Domain" type="Archetype" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_CLERIC_LIFE_DOMAIN">
+	<element name="Life Domain" type="Archetype" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_CLERIC_LIFE_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
 			<h5><i>Soothe the Hurts of the World</i></h5>
@@ -23,10 +23,10 @@
 				<tr><td>7th</td><td><em>Aura of Life, Death Ward</em></td></tr>
 				<tr><td>9th</td><td><em>Greater Restoration, Mass Cure Wounds</em></td></tr>
 			</table>
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_CD_PRESERVE_LIFE" />
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_DISCIPLE_OF_LIFE" />
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_BLESSED_HEALER" />
-			<div element="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_SUPREME_HEALING" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_CD_PRESERVE_LIFE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_DISCIPLE_OF_LIFE" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_BLESSED_HEALER" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_SUPREME_HEALING" />
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -41,14 +41,14 @@
 			<grant type="Spell" id="ID_PHB_SPELL_DEATH_WARD" level="7" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" level="9" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_MASS_CURE_WOUNDS" level="9" spellcasting="Cleric" prepared="true" /> -->
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_CD_PRESERVE_LIFE" level="3"/>
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_DISCIPLE_OF_LIFE" level="3"/>
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_BLESSED_HEALER" level="6"/>
-			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_SUPREME_HEALING" level="17"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_CD_PRESERVE_LIFE" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_DISCIPLE_OF_LIFE" level="3"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_BLESSED_HEALER" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_SUPREME_HEALING" level="17"/>
 		</rules>
 	</element>
 
-	<element name="Level 3: Disciple of Life" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_DISCIPLE_OF_LIFE">
+	<element name="Level 3: Disciple of Life" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_DISCIPLE_OF_LIFE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_DISCIPLE_OF_LIFE</requirements>
 		<description>
 			<p>When you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell’s level.</p>
@@ -58,7 +58,7 @@
 		</sheet>
 	</element>
 
-	<element name="Level 3: Channel Divinity: Preserve Life" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_CD_PRESERVE_LIFE">
+	<element name="Level 3: Channel Divinity: Preserve Life" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_CD_PRESERVE_LIFE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_CD_PRESERVE_LIFE</requirements>
 		<description>
 			<p>As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose Bloodied creatures within 30 feet of yourself (which can include you), and divide those Hit Points among them. This feature can restore a creature to no more than half its Hit Point maximum.</p>
@@ -76,7 +76,7 @@
 	</element>
 	
 
-	<element name="Level 6: Blessed Healer" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_BLESSED_HEALER">
+	<element name="Level 6: Blessed Healer" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_BLESSED_HEALER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_BLESSED_HEALER</requirements>
 		<description>
 			<p>The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one or more crea- tures other than yourself, you regain Hit Points equal to 2 plus the spell slot's level.</p>
@@ -86,7 +86,7 @@
 		</sheet>
 	</element>
 
-	<element name="Level 17: Supreme Healing" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_LIFE_DOMAIN_SUPREME_HEALING">
+	<element name="Level 17: Supreme Healing" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIFE_DOMAIN_SUPREME_HEALING">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_SUPREME_HEALER</requirements>
 		<description>
 			<p>When you would normally roll one or more dice to restore Hit Points to a creature with a spell or Channel Divinity, you don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a spell, you restore 12.</p>

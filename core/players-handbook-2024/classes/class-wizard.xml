@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Wizard</name>
-		<description>The Wizard class from the 2024 Player’s Handbook.</description>
+		<description>The Wizard class from the Player’s Handbook 2024.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
@@ -10,7 +10,7 @@
 		</update>
 	</info>
 
-	<element name="Wizard" type="Class" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_WIZARD">
+	<element name="Wizard" type="Class" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_WIZARD">
 		<description>
 			<p>Wizards are defined by their exhaustive study of magic's inner workings. They cast spells of explosive fire, arcing lightning, subtle deception, and spectacular transformations. Their magic conjures monsters from other planes of existence, glimpses the future, or forms protective barriers. Their mightiest spells change one substance into another, call meteors from the sky, or open portals to other worlds.</p>
 			<p class="indent">Most Wizards share a scolarly approach to magic. They examine the theoretical underpinnings of magic, particularly the categorization of spells into schools of magic. Renowned Wizards such as Bigby, Tasha, Mordenkainen and Yolande have built on their studies to invent iconic spells now used across the multiverse.</p>
@@ -66,16 +66,16 @@
 				<tr><td>19th</td><td class="left">Epic Boon</td><td>5</td><td>24</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
 				<tr><td>20th</td><td class="left">Signature Spell</td><td>5</td><td>25</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
 			</table>
-			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
-			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_RITUAL_ADEPT" />
-			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" />
-			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SCHOLAR" />
-			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" />
-			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" />
-			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_MEMORIZE_SPELL" />
-			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SPELL_MASTERY" />
-			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_EPIC_BOON" />
-			<div element="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_RITUAL_ADEPT" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SCHOLAR" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_MEMORIZE_SPELL" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELL_MASTERY" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_EPIC_BOON" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" />
 		</description>
 		<sheet display="false">
 			<description>A scholarly magic-user capable of manipulating the structures of reality.</description>
@@ -86,22 +86,22 @@
 		</setters>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
-			<select type="Proficiency" name="Skill Proficiency (Wizard)" supports="ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_RELIGION" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_WIZARD"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" level="1"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_RITUAL_ADEPT" level="1" />
-			<grant type="Class Feature" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" level="1" />
-			<grant type="Class Feature" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SCHOLAR" level="2" />
-			<grant type="Class Feature" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" level="3" />
-			<grant type="Class Feature" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" level="4" />
-			<grant type="Class Feature" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_MEMORIZE_SPELL" level="5" />
-			<grant type="Class Feature" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SPELL_MASTERY" level="18" />
-			<grant type="Class Feature" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_EPIC_BOON" level="19" />
-			<grant type="Class Feature" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" level="20" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
+			<select type="Proficiency" name="Skill Proficiency (Wizard)" supports="ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_RELIGION" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" level="1"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_RITUAL_ADEPT" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SCHOLAR" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_MEMORIZE_SPELL" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELL_MASTERY" level="18" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_EPIC_BOON" level="19" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS" level="20" />
 		</rules>
-		<multiclass id="ID_WOTC_PHB_MULTICLASS_WIZARD">
+		<multiclass id="ID_WOTC_PHB24_MULTICLASS_WIZARD">
 			<prerequisite>Intelligence 13</prerequisite>
 			<requirements>[int:13]</requirements>
 			<setters>
@@ -113,7 +113,7 @@
 		</multiclass>
 	</element>
 
-	<element name="Level: 1 Spellcasting" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
+	<element name="Level: 1 Spellcasting" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_SPELLCASTING</requirements>
 		<description>
 			<p>As a student of arcane magic, you have learned to cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the Wizard spell list later in the class's description.</p>
@@ -224,7 +224,7 @@
 			<select type="Spell" name="Spellbook (Wizard)" supports="$(spellcasting:list), $(spellcasting:slots)" level="20" number="2" spellcasting="Wizard" />
 		</rules>
 	</element>
-	<element name="Level: 1 Ritual Adept" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_RITUAL_ADEPT">
+	<element name="Level: 1 Ritual Adept" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_RITUAL_ADEPT">
 		<description>
 			<p>You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You needn't have the spell prepared, but must read from the book to cast a spell in this way.</p>
 		</description>
@@ -232,7 +232,7 @@
 			<description>You can cast any ritual spell in your book as a ritual, but you must read from the book to cast a spell in this way.</description>
 		</sheet>
 	</element>
-	<element name="Level: 1 Arcane Recovery" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY">
+	<element name="Level: 1 Arcane Recovery" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ARCANE_RECOVERY</requirements>
 		<description>
 			<p>You can regain some of your magical energy by studying your spellbook. When you finish a short rest, you can choose expended spellslots to recover. The spellslots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.</p>
@@ -243,7 +243,7 @@
 		</sheet>
 	</element>
 
-	<element name="Level: 2 Scholar" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SCHOLAR">
+	<element name="Level: 2 Scholar" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SCHOLAR">
 		<description>
 			<p>While stufying magic, you also specializeed in another field of study. Choose one of the following skills in which you have proficiency: Arcana, History, Investigation, Medicine, Nature or Religion. You have expertise in the chosen skill.</p>
 		</description>
@@ -254,7 +254,7 @@
 		</rules>
 	</element>
 
-	<element name="Level: 3 Wizard Subclass" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ARCANE_TRADITION">
+	<element name="Level: 3 Wizard Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ARCANE_TRADITION">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ARCANE_TRADITION</requirements>
 		<description>
 			<p>You gain a Wizard subclass of your choice. The Abjurer, Diviner, Evoker and Illusionist subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Wizard levels. For the rest of your career, you gain each of your subclass's features that are of your Wizard level or lower.</p>
@@ -264,7 +264,7 @@
 			<select type="Archetype" name="Arcane Tradition" supports="Arcane Tradition" />
 		</rules>
 	</element>
-	<element name="Level: 4 Ability Score Improvement" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD">
+	<element name="Level: 4 Ability Score Improvement" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ABILITYSCOREIMPROVEMENT_WIZARD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -280,7 +280,7 @@
 		</rules>
 	</element>
 
-	<element name="Level: 5 Memorize Spell" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_MEMORIZE_SPELL">
+	<element name="Level: 5 Memorize Spell" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_MEMORIZE_SPELL">
 		<description>
 			<p>Whenever you finish a short rest, you can study your spellbook and replace one of the level 1+ Wizard spells you have prepared for your Spellcasting feature with another level 1+ spell from the book.</p>
 		</description>
@@ -289,7 +289,7 @@
 		</sheet>
 	</element>
 
-	<element name="Level: 18 Spell Mastery" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SPELL_MASTERY">
+	<element name="Level: 18 Spell Mastery" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELL_MASTERY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_SPELL_MASTERY</requirements>
 		<description>
 			<p>At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-­level wizard spell that are in your spellbook. You always have those spells prepared, and you can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.</p>
@@ -300,7 +300,7 @@
 			Whenever you finish a long rest, you can exchange one or both of the spells you chose for different spells of the same levels.</description>
 		</sheet>
 	</element>
-	<element name="Level: 19 Epic Boon" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_EPIC_BOON">
+	<element name="Level: 19 Epic Boon" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_EPIC_BOON">
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Spell Recall is recommended.</p>
 		</description>
@@ -312,7 +312,7 @@
 
 		</rules>
 	</element>
-	<element name="Level: 20 Signature Spells" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS">
+	<element name="Level: 20 Signature Spells" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SIGNATURE_SPELLS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_SIGNATURE_SPELLS</requirements>
 		<description>
 			<p>When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-­level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don’t count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can’t do so again until you finish a short or long rest.</p>
