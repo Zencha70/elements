@@ -335,11 +335,12 @@
 		</description>
 		<sheet display="false" />
 		<rules>
+			<!-- Verify & correct 2024 ASI implementation
 			<select type="Class Feature" name="Improvement Option (Monk 4)" supports="Improvement Option,Monk,4" level="4" />
 			<select type="Class Feature" name="Improvement Option (Monk 8)" supports="Improvement Option,Monk,8" level="8" />
 			<select type="Class Feature" name="Improvement Option (Monk 12)" supports="Improvement Option,Monk,12" level="12" />
 			<select type="Class Feature" name="Improvement Option (Monk 16)" supports="Improvement Option,Monk,16" level="16" />
-			<select type="Class Feature" name="Improvement Option (Monk 19)" supports="Improvement Option,Monk,19" level="19" />
+			<select type="Class Feature" name="Improvement Option (Monk 19)" supports="Improvement Option,Monk,19" level="19" /> -->
 		</rules>
 	</element>
 
@@ -493,7 +494,8 @@
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<select type="Class Feature" name="Epic Boon" supports="Improvement Option,Monk,19" />
+			<!--Verify & correct 2024 ASI implementation
+			 <select type="Class Feature" name="Epic Boon" supports="Improvement Option,Monk,19" /> -->
 		</rules>
 	</element>
 

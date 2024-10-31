@@ -237,12 +237,13 @@
 		</description>
 		<sheet display="false" />
 		<rules>
+			<!-- Verify & correct 2024 ASI implementation
 			<select type="Class Feature" name="Improvement Option (Fighter 4)" supports="Improvement Option,Fighter,4" level="4" />
 			<select type="Class Feature" name="Improvement Option (Fighter 6)" supports="Improvement Option,Fighter,6" level="6" />
 			<select type="Class Feature" name="Improvement Option (Fighter 8)" supports="Improvement Option,Fighter,8" level="8" />
 			<select type="Class Feature" name="Improvement Option (Fighter 12)" supports="Improvement Option,Fighter,12" level="12" />
 			<select type="Class Feature" name="Improvement Option (Fighter 14)" supports="Improvement Option,Fighter,14" level="14" />
-			<select type="Class Feature" name="Improvement Option (Fighter 16)" supports="Improvement Option,Fighter,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Fighter 16)" supports="Improvement Option,Fighter,16" level="16" /> -->
 		</rules>
 	</element>
 
@@ -315,7 +316,8 @@
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<select type="Class Feature" name="Epic Boon" supports="Improvement Option,Fighter,19" />
+			<!-- Verify & correct 2024 ASI implementation
+			<select type="Class Feature" name="Epic Boon" supports="Improvement Option,Fighter,19" /> -->
 
 		</rules>
 	</element>

@@ -272,10 +272,11 @@
 		</description>
 		<sheet display="false" />
 		<rules>
+			<!-- Verify & correct 2024 ASI implementation
 			<select type="Class Feature" name="Improvement Option (Wizard 4)" supports="Improvement Option,Wizard,4" level="4" />
 			<select type="Class Feature" name="Improvement Option (Wizard 8)" supports="Improvement Option,Wizard,8" level="8" />
 			<select type="Class Feature" name="Improvement Option (Wizard 12)" supports="Improvement Option,Wizard,12" level="12" />
-			<select type="Class Feature" name="Improvement Option (Wizard 16)" supports="Improvement Option,Wizard,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Wizard 16)" supports="Improvement Option,Wizard,16" level="16" /> -->
 		</rules>
 	</element>
 
@@ -306,7 +307,8 @@
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<select type="Class Feature" name="Epic Boon" supports="Improvement Option,Wizard,19" />
+			<!-- Verify & correct 2024 ASI implementation
+			<select type="Class Feature" name="Epic Boon" supports="Improvement Option,Wizard,19" /> -->
 
 		</rules>
 	</element>
