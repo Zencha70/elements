@@ -66,7 +66,10 @@
 			<p class="indent"><i>Move.</i> As a Bonus Action, you can move the illusion up to 30 feet to an unoccupied space you can see that is within 120 feet of yourself.</p>
 		</description>
 		<sheet alt="Invoke Duplicity" action="Bonus Action" usage="Channel Divinity">
-			<description>You can expend one use of your Channel Divinity to create a perfect visual illusion of yourself in an unoccupied space you can see within 30 feet of yourself. For the duration, you can cast spells as though you were in the illusion’s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, and you can move the illusion up to 30 feet within 120 feet of yourself. The illusion lasts for 1 minute,  but it ends early if you dismiss it (no action required) or have the Incapacitated condition.</description>
+			<description>You can expend one use of your Channel Divinity to create a perfect visual illusion of yourself in an unoccupied space you can see within 30 feet of yourself.  While it persists, you gain the following benefits. &#13;
+			• Cast Spells. You can cast spells as though you were in the illusion's space, but you must use your own senses. &#13;
+			• Distract. When both you and your illusion are within 5 feet of a creature that can see the illusion, you have Advantage on attack rolls against that creature, &#13;
+			• Move. As a Bonus Action, you can move the illusion up to 30 feet to an unoccupied space you can see that is within 120 feet of yourself.</description>
 		</sheet>
 	</element>
 
