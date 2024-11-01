@@ -310,7 +310,7 @@
 			<p>When an attack roll hits you and its damage includes Bludgeoning Piercing or Slashing damage, you can take a reaection to reduce the attack's total damage against you. The reduction equals 1d1 plus your Dexterity modifier and Monk level. </p>
 			<p class="indent">If you reduce the damage to 0, you can expend 1 Focus Point to redirectsome of the attack's force. If you do so, choose a creature you can see within 5 feet of yourself if the attack was a melee attack or a creature you can see within 60 feet of yourseelf that isn't behind total cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack.</p>
 		</description>
-		<sheet alt+"Deflect Attacks" action="Reaction">
+		<sheet alt="Deflect Attacks" action="Reaction">
 			<description>You can use your reaction to reduce the damage of melee or ranged attacks that deal Bludgeoning, Piercing, or Slashing damage by 1d10+{{monk:deflect attacks bonus}}.
 			If you reduce the damage to 0, you can spend 1 Focus Point to redirect damage. Melee attacks can be directed at a creature within 5 feet, while ranged against a creature within 60 feet. The target must succeed on a DC{{ki:dc}} Dexterity saving throw or takes damage equal to 2d{{monk:deflect attack damage}}+{{monk:deflect attack damage modifier}}.</description>
 			<description level="13">You can use your reaction to reduce the damage of any melee or ranged attacks by 1d10+{{monk:deflect attacks bonus}}.
