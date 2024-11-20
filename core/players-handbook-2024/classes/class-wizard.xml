@@ -86,10 +86,10 @@
 		</setters>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
-			<select type="Proficiency" name="Skill Proficiency (Wizard)" supports="ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_RELIGION" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
+			<select type="Proficiency" name="Skill Proficiency (Wizard)" supports="ID_WOTC_PHB24_PROFICIENCY_SKILL_NATURE|ID_WOTC_PHB24_PROFICIENCY_SKILL_ARCANA|ID_WOTC_PHB24_PROFICIENCY_SKILL_HISTORY|ID_WOTC_PHB24_PROFICIENCY_SKILL_INSIGHT|ID_WOTC_PHB24_PROFICIENCY_SKILL_INVESTIGATION|ID_WOTC_PHB24_PROFICIENCY_SKILL_MEDICINE|ID_WOTC_PHB24_PROFICIENCY_SKILL_RELIGION" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_WIZARD"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" level="1"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_RITUAL_ADEPT" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" level="1" />
@@ -245,12 +245,12 @@
 
 	<element name="Level 2: Scholar" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SCHOLAR">
 		<description>
-			<p>While stufying magic, you also specializeed in another field of study. Choose one of the following skills in which you have proficiency: Arcana, History, Investigation, Medicine, Nature or Religion. You have expertise in the chosen skill.</p>
+			<p>While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency: Arcana, History, Investigation, Medicine, Nature or Religion. You have expertise in the chosen skill.</p>
 		</description>
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<select type="Class Feature" name="Scholar (Wizard)" level="2" number="1" supports="ID_INTERNAL_SUPPORT_EXPERTISE"/>
+			<select type="Proficiency" name="Scholar (Wizard)" level="2" number="1" supports="ID_WOTC_PHB24_EXPERTISE_SKILL_ARCANA|ID_WOTC_PHB24_EXPERTISE_SKILL_HISTORY|ID_WOTC_PHB24_EXPERTISE_SKILL_INVESTIGATION|ID_WOTC_PHB24_EXPERTISE_SKILL_MEDICINE|ID_WOTC_PHB24_EXPERTISE_SKILL_NATURE|ID_WOTC_PHB24_EXPERTISE_SKILL_RELIGION"/>
 		</rules>
 	</element>
 
