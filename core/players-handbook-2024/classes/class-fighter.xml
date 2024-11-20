@@ -119,15 +119,15 @@
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
 			</rules>
 		</multiclass>
 	</element>
 
-	<element name="Level: 1 Fighting Style" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_ FIGHTER_FEATURE_FIGHTINGSTYLE">
+	<element name="Level 1: Fighting Style" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_ FIGHTER_FEATURE_FIGHTINGSTYLE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_FIGHTING_STYLE</requirements>
 		<description>
 			<p>You have honed your martial prowess and gain a Fighting Style feat of your choice. Defense is recommended.</p>
@@ -159,7 +159,7 @@
 		</rules>
 	</element>
 
-	<element name="Level: 1 Second Wind" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_SECONDWIND">
+	<element name="Level 1: Second Wind" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_SECONDWIND">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_SECOND_WIND</requirements>
 		<description>
 			<p>You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.</p>
@@ -176,7 +176,7 @@
 		</rules>
 	</element>
 
-	<element name="Level: 1 Weapon Mastery" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_WEAPONMASTERY">
+	<element name="Level 1: Weapon Mastery" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_WEAPONMASTERY">
 		<description>
 			<p>Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.</p>
 			<p class="indent">When you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table. </p>
@@ -197,7 +197,7 @@
 		</rules>
 	</element>
 
-	<element name="Level: 2 Action Surge" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_ACTIONSURGE">
+	<element name="Level 2: Action Surge" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_ACTIONSURGE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_ACTION_SURGE</requirements>
 		<description>
 			<p>You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except for the Magic action.</p>
@@ -209,7 +209,7 @@
 		</sheet>
 	</element>
 
-		<element name="Level: 2 Tactical Mind" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TACTICALMIND">
+		<element name="Level 2: Tactical Mind" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TACTICALMIND">
 		<description>
 			<p>You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.</p>
 		</description>
@@ -218,7 +218,7 @@
 		</sheet>
 	</element>
 
-	<element name="Level: 3 Fighter Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_MARTIALARCHETYPE">
+	<element name="Level 3: Fighter Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_MARTIALARCHETYPE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_MARTIAL_ARCHETYPE</requirements>
 		<description>
 			<p>You gain a Fighter subclass of your choice. The Battle Master, Champion, Eldritch Knight and Psi Warrior subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower.</p>
@@ -229,7 +229,7 @@
 		</rules>
 	</element>
 
-	<element name="Level: 4 Ability Score Improvement" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_ABILITYSCOREIMPROVEMENT_FIGHTER">
+	<element name="Level 4: Ability Score Improvement" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_ABILITYSCOREIMPROVEMENT_FIGHTER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -247,7 +247,7 @@
 		</rules>
 	</element>
 
-	<element name="Level: 5 Extra Attack" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_EXTRAATTACK">
+	<element name="Level 5: Extra Attack" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_EXTRAATTACK">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_EXTRA_ATTACK</requirements>
 		<description>
 			<p>Beginning at 5th level, you can attack twice instead of once, whenever you take the Attack action on your turn.</p>
@@ -265,7 +265,7 @@
 		</rules>
 	</element>
 
-	<element name="Level: 5 Tactical Shift" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TACTICALSHIFT">
+	<element name="Level 5: Tactical Shift" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TACTICALSHIFT">
 		<description>
 			<p>Whenever you activate your Second Wind with a Bonus Action, you can move up to half your speed without provoking Opportunity Attacks.</p>
 		</description>
@@ -274,7 +274,7 @@
 		</sheet>
 	</element>
 
-	<element name="Level: 9 Indomitable" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_INDOMITABLE">
+	<element name="Level 9: Indomitable" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_INDOMITABLE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_INDOMITABLE</requirements>
 		<description>
 			<p>If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can't use this feature again until you finish a Long Rest.</p>
@@ -291,7 +291,7 @@
 		</rules>
 	</element>
 
-	<element name="Level: 9 Tactical Master" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TACTICALMASTER">
+	<element name="Level 9: Tactical Master" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_TACTICALMASTER">
 		<description>
 			<p>When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap or Slow property for that attack.</p>
 		</description>
@@ -300,7 +300,7 @@
 		</sheet>
 	</element>
 
-	<element name="Level: 13 Studied Attacks" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_STUDIEDATTACKS">
+	<element name="Level 13: Studied Attacks" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_STUDIEDATTACKS">
 		<description>
 			<p>You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creaure before the end of your next turn.</p>
 		</description>
@@ -309,7 +309,7 @@
 		</sheet>
 	</element>
 
-		<element name="Level: 19 Epic Boon" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_EPICBOON">
+		<element name="Level 19: Epic Boon" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_EPICBOON">
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended.</p>
 		</description>

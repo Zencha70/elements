@@ -215,55 +215,31 @@
 
 	<element name="Protector" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_DIVINEORDER_PROTECTOR">
 		<description>
-			<p class="indent"> <i>Protector.</i> Trained for battle, you gain proiciency with Martial weapons and training with Heavy armor.</p>
+			<p>Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
 
 		</rules>
 	</element>
 
 	<element name="Thaumaturge" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_DIVINEORDER_THAUMATURGE">
 		<description>
-			<p class="indent"> <i>Thaumaturge</i>. You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1).</p>
+			<p>You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1).</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 
 			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" number="1" spellcasting="Cleric" />
-			<select type="Class Feature" name="Divine Domain" supports="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_DIVINEORDER_THAUMATURGE_ARCANA|ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_DIVINEORDER_THAUMATURGE_RELIGION"/>
+			<stat name="arcana:misc" value="thaumaturge:bonus" />
+			<stat name="religion:misc" value="thaumaturge:bonus" />
 
-			<stat name="thaumaturge:bonus" value="wisdom:modifier" bonus="base" />
 			<stat name="thaumaturge:bonus" value="1" bonus="base" />
-		</rules>
-	</element>
+			<stat name="thaumaturge:bonus" value="wisdom:modifier" bonus="base" />
 
-	<element name="Skill Bonus (Arcana)" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_DIVINEORDER_THAUMATURGE_ARCANA">
-		<description>
-			<p>You add your Wisdom modifier (minimum of +1) to any Arcana check you make.</p>
-			<div class="reference">
-				<div element="ID_PROFICIENCY_SKILL_ARCANA" />
-			</div>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<stat name="arcana:misc" value="thaumaturge:bonus" bonus="thaumaturge" />
-		</rules>
-	</element>
-
-	<element name="Skill Bonus (Religion)" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_DIVINEORDER_THAUMATURGE_RELIGION">
-		<description>
-			<p>You add your Wisdom modifier (minimum of +1) to any Religion check you make.</p>
-			<div class="reference">
-				<div element="ID_PROFICIENCY_SKILL_RELIGION" />
-			</div>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<stat name="religion:misc" value="thaumaturge:bonus" bonus="thaumaturge" />
-		</rules>
+				</rules>
 	</element>
 
 	<element name="Level 2: Channel Divinity" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CHANNELDIVINITY">
@@ -371,7 +347,7 @@
 
 	<element name="Divine Strike" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES_DIVINESTRIKE">
 		<description>
-			<p class="indent"> <i>Divine Strike.</i> Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra ld8 Necrotic or Radiant damage (your choice).</p>
+			<p>Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra ld8 Necrotic or Radiant damage (your choice).</p>
 		</description>
 		<sheet>
 			<description>Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra ld8 Necrotic or Radiant damage (your choice).</description>
@@ -381,11 +357,11 @@
 
 	<element name="Potent Spellcasting" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES_POTENTSPELLCASTING">
 		<description>
-			<p class="indent"> <i>Potent Spellcasting</i>. Add your Wisdom modifier to the damage you deal with any Cleric cantrip.</p>
+			<p>Add your Wisdom modifier to the damage you deal with any Cleric cantrip.</p>
 		</description>
 		<sheet>
 			<description>You can add {{wisdom:modifier}} to the damage you deal with any Cleric cantrip.</description>
-			<description level="14">You can add {{wisdom:modifier}} to the damage you deal with any Cleric cantrip. Additionally, when you cast a Cleric cantrip and deal damage to a creature with it, you can grant yourself or another creature within 60 feet of you a number of Temporary Hit Points equal to {{doublewisdom:bonus}}. </description>
+			<description level="14">You can add {{wisdom:modifier}} to the damage you deal with any Cleric cantrip. Additionally, when you cast a Cleric cantrip and deal damage to a creature with it, you can grant yourself or another creature within 60 feet of you {{doublewisdom:bonus}} Temporary Hit Points. </description>
 		</sheet>
 		<rules>
 			<stat name="doublewisdom:bonus" value="wisdom:modifier" />
