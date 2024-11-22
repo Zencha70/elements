@@ -13,7 +13,7 @@
 	<element name="Wizard" type="Class" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_WIZARD">
 		<description>
 			<p>Wizards are defined by their exhaustive study of magic's inner workings. They cast spells of explosive fire, arcing lightning, subtle deception, and spectacular transformations. Their magic conjures monsters from other planes of existence, glimpses the future, or forms protective barriers. Their mightiest spells change one substance into another, call meteors from the sky, or open portals to other worlds.</p>
-			<p class="indent">Most Wizards share a scolarly approach to magic. They examine the theoretical underpinnings of magic, particularly the categorization of spells into schools of magic. Renowned Wizards such as Bigby, Tasha, Mordenkainen and Yolande have built on their studies to invent iconic spells now used across the multiverse.</p>
+			<p class="indent">Most Wizards share a scholarly approach to magic. They examine the theoretical underpinnings of magic, particularly the categorization of spells into schools of magic. Renowned Wizards such as Bigby, Tasha, Mordenkainen and Yolande have built on their studies to invent iconic spells now used across the multiverse.</p>
 			<p class="indent">The closest a Wizard is likely to come to an ordinary life is working as a sage or lecturer. Other Wizards sell their services as advisers, serve in military forces, or pursue lives of crime or domination.</p>
 			<p class="indent">But the lure of knowledge calls even the most unadventurous Wizards from the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most Wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age.</p>
 
@@ -121,9 +121,9 @@
 			<p>You know three Wizard cantrips of your choice. <i>light</i>, <i>mage hand</i>, and <i>ray of frost</i> are recommended. Whenever you finish a long rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.</p>
 			<p class="indent">When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard Features table.</p>
 			<h5>SPELLBOOK</h5>
-			<p>Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a tiny object that weights 3 pounds, contains 100 pages and can be read only by you or someone casting <i>identify</i>. You determine the book's appearancee and materials, such as a gilt-edged tome or a collection of vellum bound with twine.</p>
+			<p>Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a tiny object that weights 3 pounds, contains 100 pages and can be read only by you or someone casting <i>identify</i>. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine.</p>
 			<p class="indent">The book contains the level 1+ spells you know. It starts with six level 1 Wizard spells of your choice. <i>Detect magic</i>, <i>feather fall</i>, <i>mage armor</i>, <i>magic missle</i>, <i>sleep</i>, and <i>thunderwave</i> are recommended. </p>
-			<p class="indent">Whenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you havee spell slots, as shown in the Wizard Features table. The spells are the culmination of arcane research you do regularly. </p>
+			<p class="indent">Whenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown in the Wizard Features table. The spells are the culmination of arcane research you do regularly. </p>
 			<h5>SPELL SLOTS</h5>
 			<p>The Wizard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a long rest.</p>
 			<h5>PREPARED SPELLS OF LEVEL 1+</h5>
@@ -131,7 +131,7 @@
 			<p class="indent">The number of spells on your list increases as you gain Wizard levels, as shown in the Prepared Spells column of the Wizard Features table. Whenever that number increases, choose additional Wizard spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Wizard, your list of prepared spells can include six spells of levels 1 and 2 in any combination, chosen from your spellbook.</p>
 			<p class="indent">If another Wizard feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Wizard spells for you.</p>
 			<h5>CHANGING YOUR PREPARED SPELLS</h5>
-			<p class="indent">Whenever you finish a long rest, you can change your list of prepared spells, replacing any of the spells there with spells from yous pellbook</p>
+			<p class="indent">Whenever you finish a long rest, you can change your list of prepared spells, replacing any of the spells there with spells from your spellbook</p>
 			<h5>SPELLCASTING ABILITY</h5>
 			<p>Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.</p>
 			<center>
@@ -143,7 +143,7 @@
 			<h5>LEARNING SPELLS OF 1ST LEVEL AND HIGHER</h5>
 			<p>Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook for free. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook. If it's a Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.</p>
 			<h5>COPYING THE BOOK</h5>
-			<p>You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook, but faster, since you already know how to cawst the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.</p>
+			<p>You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook, but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.</p>
 			<p class="indent">If you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook.</p> 
 		</description>
 		<sheet display="false">
