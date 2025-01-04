@@ -13,7 +13,7 @@
 		<description>
 			<p>Clerics draw power from the realms of the gods and harness it to work miracles. Blessed by a deity, a pantheon, or another immortal entity, a Cleric can reach out to the divine magic of the Outer Planes-where gods dwell-and channel it to bolster people and battle foes.</p>
 			<p class="indent">Because their power is a divine gift, Clerics typically associate themselves with temples dedicated to the deity or other immortal force that unlocked their magic. Harnessing divine magic doesn't rely on specific training, yet Clerics might learn prayers and rites that help them draw on power from the Outer Planes.</p>
-			<p class="indent">Not every member of a temple or shrine is a Cleric. Some priests are called to a simple life oftemple service, carrying out their devotion through prayer and rituals, not through magic. Many mortals claim to speak for the gods, but few can marshal the power of those gods the way a Cleric can.</p>
+			<p class="indent">Not every member of a temple or shrine is a Cleric. Some priests are called to a simple life of temple service, carrying out their devotion through prayer and rituals, not through magic. Many mortals claim to speak for the gods, but few can marshal the power of those gods the way a Cleric can.</p>
 			<table>
 				<thead>
 					<tr><td>Core Cleric Traits</td></tr>
@@ -265,11 +265,11 @@
 	<element name="Channel Divinity: Turn Undead" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_CHANNELDIVINITY_TURN_UNDEAD</requirements>
 		<description>
-			<p>As a Magic action, you present your Holy Symbol and censure Undead creatures. Each Undead of your choice within 30 feet of you mustmake a Wisdom saving throw. If the creature fails its save, it has the Frightened and Incapacitated conditions for 1 minute. For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the Incapacitated condition, or if you die.</p>
+			<p>As a Magic action, you present your Holy Symbol and censure Undead creatures. Each Undead of your choice within 30 feet of you must make a Wisdom saving throw. If the creature fails its save, it has the Frightened and Incapacitated conditions for 1 minute. For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the Incapacitated condition, or if you die.</p>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD_SEARUNDEAD" level="5" />
 		</description>
 		<sheet alt="Turn Undead" action="Magic Action" usage="Channel Divinity">
-			<description>Each Undead of your choice within 30 feet of you mustmake a Wisdom saving throw. If the creature fails its save, it has the Frightened and Incapacitated conditions for 1 minute. This effect ends early on a creature if it takes any damage, if you have the Incapacitated condition or if you die.
+			<description>Each Undead of your choice within 30 feet of you must make a Wisdom saving throw. If the creature fails its save, it has the Frightened and Incapacitated conditions for 1 minute. This effect ends early on a creature if it takes any damage, if you have the Incapacitated condition or if you die.
 				 For that duration, it tries to move as far from you as it can on its turns. </description>
 		</sheet>
 		<rules>
@@ -280,7 +280,7 @@
 	<element name="Level 5: Sear Undead" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD_SEARUNDEAD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DESTROY_UNDEAD</requirements>
 		<description>
-			<p>Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of ld8) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.</p>
+			<p>Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of 1d8) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.</p>
 		</description>
 		<sheet alt="Sear Undead">
 			<description>Whenever you use Turn Undead, you can roll {{searundead:modifier}}d8. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.</description>
@@ -293,7 +293,7 @@
 
 	<element name="Channel Divinity: Divine Spark" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_DIVINESPARK">
 		<description>
-			<p> As a Magic action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at it. Roll ld8 and add your Wisdom modifier. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant damage (your choice) equal to that total. On a successful save, the creature takes half as much damage (round down).</p>
+			<p> As a Magic action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at it. Roll 1d8 and add your Wisdom modifier. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant damage (your choice) equal to that total. On a successful save, the creature takes half as much damage (round down).</p>
 			<p class="indent">You roll an additional d8 when you reach Cleric levels 7 (2d8), 13 (3d8), and 18 (4d8).</p>
 		</description>
 		<sheet alt="Divine Spark" action="Magic Action" usage="Channel Divinity">
@@ -326,11 +326,10 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<!-- Verify & correct 2024 ASI implementation
-			<select type="Class Feature" name="Improvement Option (Cleric 4)" supports="Improvement Option,Cleric,4" level="4" />
-			<select type="Class Feature" name="Improvement Option (Cleric 8)" supports="Improvement Option,Cleric,8" level="8" />
-			<select type="Class Feature" name="Improvement Option (Cleric 12)" supports="Improvement Option,Cleric,12" level="12" />
-			<select type="Class Feature" name="Improvement Option (Cleric 16)" supports="Improvement Option,Cleric,16" level="16" /> -->
+			<select type="Feat" name="Ability Score Improvement (Cleric 4)" supports="!Boon" level="4" />
+			<select type="Feat" name="Ability Score Improvement (Cleric 8)" supports="!Boon" level="8" />
+			<select type="Feat" name="Ability Score Improvement (Cleric 12)" supports="!Boon" level="12" />
+			<select type="Feat" name="Ability Score Improvement (Cleric 16)" supports="!Boon" level="16" />
 		</rules>
 	</element>
 
@@ -347,10 +346,10 @@
 
 	<element name="Divine Strike" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES_DIVINESTRIKE">
 		<description>
-			<p>Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra ld8 Necrotic or Radiant damage (your choice).</p>
+			<p>Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).</p>
 		</description>
 		<sheet>
-			<description>Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra ld8 Necrotic or Radiant damage (your choice).</description>
+			<description>Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).</description>
 			<description level="14">Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 2d8 Necrotic or Radiant damage (your choice).</description>
 		</sheet>
 	</element>
@@ -375,8 +374,8 @@
 			<p> You can call on your deity or pantheon to intervene on your behalf. As a Magic action, choose any Cleric spell of level 5 or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. You can't use this feature again until you finish a Long Rest. </p>
 		</description>
 		<sheet alt="Divine Intervention" usage="1/Long Rest">
-			<description>As a Magic action, choose any Cleric spell of level 5 or lower that doesn 't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components.</description>
-			<description level="20">As a Magic action, choose any Cleric spell of level 5 or lower that doesn 't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. 
+			<description>As a Magic action, choose any Cleric spell of level 5 or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components.</description>
+			<description level="20">As a Magic action, choose any Cleric spell of level 5 or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. 
 			You can also choose the <i>Wish</i> spell. If you do so, you can't use Divine Intervention again until you finish 2d4 Long Rests.</description>
 		</sheet>
 	</element>
@@ -398,8 +397,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<!-- Verify & correct 2024 ASI implementation
-			<select type="Class Feature" name="Epic Boon" supports="Improvement Option,Cleric,19" /> -->
+			<select type="Feat" name="Epic Boon (Cleric 19)" level="19" />
 		</rules>
 	</element>
 

@@ -13,15 +13,15 @@
 	<element name="Fighter" type="Class" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FIGHTER">
 		<description>
 			<p>Fighters rule many battlefields. Questing knights, royal champions, elite soldiers and hardened mercenaries- as Fighters, they all share an unparalleled prowess with weapons and armor. And they are well acquainted with death, both meting it out and defying it.</p>
-			<p class="indent">Fighters master various weapon techniques, and a well-equipped Fighter always has the right tool at hand for any combat situation. Likewise, a Fighter is adept with every form of armor. Beyond that basic degree of familiarity, each Fighter specilaizes in certain styles of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad ability and extensive specialization makes Fighters superior combatants.</p>
+			<p class="indent">Fighters master various weapon techniques, and a well-equipped Fighter always has the right tool at hand for any combat situation. Likewise, a Fighter is adept with every form of armor. Beyond that basic degree of familiarity, each Fighter specializes in certain styles of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad ability and extensive specialization makes Fighters superior combatants.</p>
 			
 			<table>
 				<thead>
 					<tr><td>Core Fighter Traits</td></tr>
 				</thead>
-				<tr><td>Primary Ability</td><td class="left">Strenght or Dexterity </td> </tr>
+				<tr><td>Primary Ability</td><td class="left">Strength or Dexterity </td> </tr>
 				<tr><td>Hit Point Die</td><td class="left">D10 per Fighter level</td></tr>
-				<tr><td>Saving Throw Proficiencies</td><td class="left">Strenght and Constitution</td></tr>
+				<tr><td>Saving Throw Proficiencies</td><td class="left">Strength and Constitution</td></tr>
 				<tr><td>Skill Proficiencies</td><td class="left"><i>Choose 2:</i> Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, or Survival</td></tr>
 				<tr><td>Weapon Proficiencies</td><td class="left">Simple weapons and Martial weapons</td></tr>
 				<tr><td>Armor Training</td><td class="left">Light, Medium and Heavy armor and Shields</td></tr>
@@ -31,7 +31,7 @@
 			<h4>As A Level 1 Character</h4>
 			<ul>
 				<li>Gain all the traits in the Core Fighter Traits table.</li>
-				<li>Gain the Fighter'slevel 1 features which are listed in the Fighter Features table.</li>
+				<li>Gain the Fighter's level 1 features which are listed in the Fighter Features table.</li>
 			</ul>
 			<h4>As A Multiclass Character</h4>
 			<ul>
@@ -127,7 +127,7 @@
 		</multiclass>
 	</element>
 
-	<element name="Level 1: Fighting Style" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_ FIGHTER_FEATURE_FIGHTINGSTYLE">
+	<element name="Level 1: Fighting Style" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_FIGHTING_STYLE</requirements>
 		<description>
 			<p>You have honed your martial prowess and gain a Fighting Style feat of your choice. Defense is recommended.</p>
@@ -154,6 +154,7 @@
 			<p>When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d6 plus your Strength modifier instead of the normal damage of an Unarmed Strike. If you aren't holding any weapons or a Shield when you make the attack roll, the d6 becomes a d8.</p>
 			<p class="indent">At the start of each of your turns, you can deal 1d4 Bludgeoning damage to one creature Grappled by you.</p>
 		</description>
+		<sheet display="false" />
 		<rules>
 			<select type="Feat" name="Fighting Style" supports="Fighting Style" />
 		</rules>
@@ -166,8 +167,9 @@
 			<p class="indent">You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. </p>
 			<p class="indent">When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.</p>
 		</description>
-		<sheet alt="Second Wind" action="Bonus Action" usage="{{second wind:count}} uses">
-			<description>You regain 1d10+{{level:fighter}} hp.</description>
+		<sheet alt="Second Wind" action="Bonus Action" usage="{{second wind:count}}/Long Rest">
+			<description>You regain 1d10+{{level:fighter}} Hit Points. &#13;
+			You regain one expended use when you finish a Short Rest.</description>
 		</sheet>
 		<rules>
 			<stat name="second wind:count" value="2" bonus="base" />
@@ -213,7 +215,7 @@
 		<description>
 			<p>You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.</p>
 		</description>
-		<sheet alt="Tactical Mind">
+		<sheet alt="Tactical Mind" usage="Second Wind">
 			<description>When you fail an ability check, you can expend a use of your Second Wind to roll 1d10 and add the number to the ability check. If the check fails, this use of Second Wind isn't expended.</description>
 		</sheet>
 	</element>
@@ -237,13 +239,12 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<!-- Verify & correct 2024 ASI implementation
-			<select type="Class Feature" name="Improvement Option (Fighter 4)" supports="Improvement Option,Fighter,4" level="4" />
-			<select type="Class Feature" name="Improvement Option (Fighter 6)" supports="Improvement Option,Fighter,6" level="6" />
-			<select type="Class Feature" name="Improvement Option (Fighter 8)" supports="Improvement Option,Fighter,8" level="8" />
-			<select type="Class Feature" name="Improvement Option (Fighter 12)" supports="Improvement Option,Fighter,12" level="12" />
-			<select type="Class Feature" name="Improvement Option (Fighter 14)" supports="Improvement Option,Fighter,14" level="14" />
-			<select type="Class Feature" name="Improvement Option (Fighter 16)" supports="Improvement Option,Fighter,16" level="16" /> -->
+			<select type="Feat" name="Ability Score Improvement (Fighter 4)" supports="!Boon" level="4" />
+			<select type="Feat" name="Ability Score Improvement (Fighter 6)" supports="!Boon" level="6" />
+			<select type="Feat" name="Ability Score Improvement (Fighter 8)" supports="!Boon" level="8" />
+			<select type="Feat" name="Ability Score Improvement (Fighter 12)" supports="!Boon" level="12" />
+			<select type="Feat" name="Ability Score Improvement (Fighter 14)" supports="!Boon" level="14" />
+			<select type="Feat" name="Ability Score Improvement (Fighter 16)" supports="!Boon" level="16" />
 		</rules>
 	</element>
 
@@ -270,7 +271,7 @@
 			<p>Whenever you activate your Second Wind with a Bonus Action, you can move up to half your speed without provoking Opportunity Attacks.</p>
 		</description>
 		<sheet alt="Tactical Shift">
-			<description>When you actiate Second Wind with a Bonus Action, you can move up to half your speed without provoking Opportunity Attacks.</description>
+			<description>When you activate Second Wind with a Bonus Action, you can move up to half your speed without provoking Opportunity Attacks.</description>
 		</sheet>
 	</element>
 
@@ -316,8 +317,7 @@
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<!-- Verify & correct 2024 ASI implementation
-			<select type="Class Feature" name="Epic Boon" supports="Improvement Option,Fighter,19" /> -->
+			<select type="Feat" name="Epic Boon (Fighter 19)" level="19" />
 
 		</rules>
 	</element>

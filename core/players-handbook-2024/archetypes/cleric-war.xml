@@ -33,17 +33,18 @@
 			<description>The gods of war watch over warriors and reward them for their great deeds.</description>
 		</sheet>
 		<rules>
-			<!-- Update 2014 to 2024 spell ID's
-			<grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" level="1" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SHIELD_OF_FAITH" level="1" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_MAGIC_WEAPON" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SPIRITUAL_WEAPON" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_CRUSADERS_MANTLE" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SPIRIT_GUARDIANS" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="9" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="9" spellcasting="Cleric" prepared="true" /> -->
+			
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_GUIDING_BOLT" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SHIELD_OF_FAITH" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MAGIC_WEAPON" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SPIRITUAL_WEAPON" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_CRUSADERS_MANTLE" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SPIRIT_GUARDIANS" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_STONESKIN" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FLAME_STRIKE" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_HOLD_MONSTER" level="9" spellcasting="Cleric" prepared="true" />
+
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST" level="3"/>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_GUIDED_STRIKE" level="3"/>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_GODS_BLESSING" level="6"/>
@@ -72,7 +73,8 @@
 			<p>When you or a creature within 30 feet of you misses with an attack roll, you can expend one use of your Channel Divinity and give that roll a +10 bonus, potentially causing it to hit. When you use this feature to benefit another creature's attack roll, you must take a Reaction to do so.</p>
 		</description>
 		<sheet alt="Guided Strike" usage="Channel Divinity">
-			<description>When you or a creaure within 30 feet of you misses with an attack roll, you can give that roll a +10 bonus. When you use this feature to benefit another creature's attack roll, you must take a Reaction to do so.</description>
+			<description>When you or a creature within 30 feet of you misses with an attack roll, you can give that roll a +10 bonus. When you use this feature to benefit another creature's attack roll, you must take a Reaction to do so.</description>
+
 		</sheet>
 	</element>
 	<element name="Level 6: War God’s Blessing" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_GODS_BLESSING">
