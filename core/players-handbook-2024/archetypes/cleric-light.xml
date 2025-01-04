@@ -34,17 +34,18 @@
 			<description>The gods of war watch over warriors and reward them for their great deeds.</description>
 		</sheet>
 		<rules>
-			<!-- Update 2014 to 2024 spell ID's
-			<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SEE_INVISIBILITY" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SCORCHING_RAY" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_DAYLIGHT" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="9" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="9" spellcasting="Cleric" prepared="true" />-->
+
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_BURNING_HANDS" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FAERIE_FIRE" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SEE_INVISIBILITY" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SCORCHING_RAY" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DAYLIGHT" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FIREBALL" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_ARCANE_EYE" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_WALL_OF_FIRE" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FLAME_STRIKE" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SCRYING" level="9" spellcasting="Cleric" prepared="true" />
+
 
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" level="3"/>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN" level="3"/>
